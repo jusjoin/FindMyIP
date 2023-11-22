@@ -1,3 +1,5 @@
 # FindMyIP
+Assesment Proejct 11-22
 
-A description of this package.
+FindMyIP package consumes web service https://ipapi.co/json/ and displays the information.
+This package is used by MainApp found at 

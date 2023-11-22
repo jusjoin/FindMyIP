@@ -22,7 +22,6 @@ public class FindMyIPViewModel: ObservableObject {
     private var subscriptions: Set<AnyCancellable> = []
     @Published var addressData: AddressData?
     @Published var state: State = .idle
-//    @Published var isError: Bool = false
     @Published var errorMessage: String?
 
 
@@ -40,7 +39,6 @@ public class FindMyIPViewModel: ObservableObject {
                 switch completion {
                 case .failure(let error):
                     self.state = .error
-//                    self.isError = true
                     if let errorDescription = error.errorDescription {
                         self.errorMessage = errorDescription
                         print("Failed: " + errorDescription)

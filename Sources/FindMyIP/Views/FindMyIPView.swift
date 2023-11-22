@@ -15,7 +15,7 @@ public struct FindMyIPView: View {
     }
     
     public var body: some View {
-        VStack {
+        VStack(spacing: 12) {
             headerView
             switch viewModel.state {
             case .idle: idleView

@@ -19,7 +19,6 @@ class MockFindMyIPService: FindMyIPServiceProtocol {
                 .eraseToAnyPublisher()
         } else {
                 return Fail(error: AFError.invalidURL(url: "endpoint"))
-                .debounce(for: .seconds(2), scheduler: RunLoop.main)
                 .eraseToAnyPublisher()
         }
     }

@@ -48,7 +48,6 @@ public class FindMyIPViewModel: ObservableObject {
                 }
             } receiveValue: { [weak self] addressData in
                 guard let self = self else { return }
-                // update state
                 self.addressData = addressData
             }
             .store(in: &subscriptions)

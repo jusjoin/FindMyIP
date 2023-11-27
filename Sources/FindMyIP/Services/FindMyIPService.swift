@@ -9,10 +9,6 @@ import Foundation
 import Combine
 import Alamofire
 
-//enum NetworkError: AFError {
-//    case invalidURL
-//}
-
 protocol FindMyIPServiceProtocol {
     func fetchData() -> AnyPublisher<AddressData?, AFError>
 }

@@ -66,32 +66,3 @@ struct AddressData: Codable {
         case org
     }
 }
-
-// Sample Data
-//"ip": "172.72.46.36",
-//"network": "172.72.32.0/20",
-//"version": "IPv4",
-//"city": "Charlotte",
-//"region": "North Carolina",
-//"region_code": "NC",
-//"country": "US",
-//"country_name": "United States",
-//"country_code": "US",
-//"country_code_iso3": "USA",
-//"country_capital": "Washington",
-//"country_tld": ".us",
-//"continent_code": "NA",
-//"in_eu": false,
-//"postal": "28207",
-//"latitude": 35.1893,
-//"longitude": -80.8358,
-//"timezone": "America/New_York",
-//"utc_offset": "-0500",
-//"country_calling_code": "+1",
-//"currency": "USD",
-//"currency_name": "Dollar",
-//"languages": "en-US,es-US,haw,fr",
-//"country_area": 9629091.0,
-//"country_population": 327167434,
-//"asn": "AS11426",
-//"org": "TWC-11426-CAROLINAS"
